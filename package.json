@@ -1,0 +1,26 @@
+{
+  "name": "wirt-documentation",
+  "version": "1.0.0",
+  "description": "Documentation for https://wirt.network",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "dev:docs": "vuepress dev docs",
+    "build:docs": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wirtnetwork/docs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wirtnetwork/docs/issues"
+  },
+  "homepage": "https://github.com/wirtnetwork/docs#readme",
+  "devDependencies": {
+    "vuepress": "^1.4.0"
+  }
+}
