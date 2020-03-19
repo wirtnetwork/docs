@@ -5,7 +5,7 @@ module.exports = {
   themeConfig: {
     locales: {
       "/": {
-        nav: [{ text: "Back to the App", link: "/" }],
+        nav: [{ text: "Back to the App", link: "https://wirt.network" }],
         sidebar: [
           ["/", "Intro"],
           ["/beginner", "Beginner Explanation"],
