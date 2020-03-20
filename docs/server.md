@@ -4,6 +4,9 @@ The server is the central point of coordinating the communication between your d
 
 At the moment you will have to provide your own server and configure it with Wireguard.
 You do not need a very powerful machine for a normal private network, a simple low-end VPS should be okay.
+
+We recommend [Hetzner](https://www.hetzner.com/cloud) and are not affiliated with them. They just offer a good product!
+
 If your network is very large you will probably know that it wont be enough in that case.
 
 ## Setup

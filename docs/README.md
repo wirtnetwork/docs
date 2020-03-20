@@ -3,17 +3,19 @@
 **Wirt** is an application to help you to create a network with your devices in a safe way using Wireguard.
 There are many use cases for this, as the tutorials will cover, but a secure network is at the base of all of those.
 
-Since Wireguard is behind all the actual networking and routing your network will be using modern cryptography and some Linux magic, to give you the quickest and most reliable solution for creating you own personal **VPN**.
+Since Wireguard is behind all the actual networking and routing your network will be using modern cryptography and some Linux magic, to give you the quickest and most reliable solution for creating your own personal **VPN**.
 
-You read that right, a **VPN**, but not in the way that you might have come to know it from the countless piracy related news. This **Virtual private network** that you will set up with Wirt belongs only to you and will no communicate with any devices outside of it.
-This will give you a maximum of security, allowing you to connect to your devices from home while you are on the go or travelling, staying anonymous between your devices in any network and making configuration of many services you might want to use for yourself a lot easier since you do not have to worry about other people or bots joining **YOUR** network.
-And dont worry, you can still decide to route all your traffic through your server. But be aware that this might not make you anonymous on the internet, its your server after all.
+You read that right, a **VPN**, but not in the way that you might have come to know it from the countless piracy related news. This **Virtual private network** that you will set up with Wirt belongs only to you and will not, by default, communicate with any devices outside of it.
+This will give you a maximum of security, allowing you to connect to your devices from home while you are on the go or travelling.
 
-So who is Wirt for?
+In addition this helps to make configuration of many services you might want to use for yourself a lot easier since you do not have to worry about other people or bots joining **YOUR** network. Just like at home, but outside of it.
 
-- Everyone who already digitalized their home and wants to acces their data while on the go.
-- Wireguard enthusiasts who want a user friendly UI to manage their network.
-- Security conscious users who lack the technical knowledge to set up Wireguard on their own.
+And dont worry, you can still decide to route all of the traffic for specific devices through your server. But be aware that this will not make you anonymous on the internet, its your server after all.
+
+### So who is Wirt for?
+
+- Everyone who has digital services in their home and wants to acces them while on the go.
+- Everyone who wants to set up a Wireguard network, but is overwhelmed by all the technicalities in setting it up correctly.
 
 Hopefully **Wirt** can help you stay safe!
 
