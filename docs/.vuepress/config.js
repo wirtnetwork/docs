@@ -11,7 +11,8 @@ module.exports = {
           ["/beginner", "Beginner Explanation"],
           ["/expert", "Overview for Experts"],
           ["/server", "Wireguard server"],
-          ["/faq", "FAQ"]
+          ["/faq", "FAQ"],
+          ["/issues", "New features & Bugs"]
         ]
       }
       //   "/de/": {
