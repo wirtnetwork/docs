@@ -34,9 +34,7 @@ In order to do this securely, it makes a few assumptions:
 
 - You have a domain name that points to your server and a valid SSL certificate
 - You have provided the public key of your web-app
-- Your wireguard configuration is at `/etc/wireguard/server.conf`
-- Your server is running via `systemd`
-- The user that the adapter is running as can restart the `systemd` service and is allowed to write to the config file
+- Your wireguard configuration is at `/etc/wireguard/server.conf` and is editable by the adapter
 
 Below is some more information on this.
 
@@ -48,6 +46,8 @@ Once installed simply enter the domain name your server is reachable at on the [
 
 In order to use the `wirt-adapter` you **MUST** have a domain name that points to your server and a valid SSL certificate.
 This is needed because otherwise your browser will not allow communicating with the adapter. All requests would simply be blocked.
+
+If you do not have a certificate yet head over to [LetsEncrypt](https://letsencrypt.org/) to get a free one!
 
 There is nothing that can be done from our site. If you have a workaround using a proxy or similar, feel free to contribute your solution to the docs!
 
@@ -91,11 +91,11 @@ This means that you have to make sure that your firewall is set up correctly to 
 
 In the future when more features get added to the webapp, this shouldnt be needed anymore.
 
-### Correct privileges
+### Editing privileges
 
 First of all **DO NOT RUN THE ADAPTER AS SUDO!**
 
-While the [wirt-adapter](https://github.com/wirt-network/adapter) is written with security in mind, using one of the most secure programming languages, bugs and errors can always exist. Do not take the shortcut here! After all the network should be secure, right?
+While the [wirt-adapter](https://github.com/wirt-network/adapter) is written with security in mind, using one of the most secure programming languages (https://www.rust-lang.org/), bugs and errors can always exist. Do not take the shortcut here! After all the network should be secure, right?
 
 So how can you do it properly?
 
