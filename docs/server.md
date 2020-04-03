@@ -42,6 +42,8 @@ Below is some more information on this.
 
 More installation instructions can be found [here](https://github.com/wirt-network/adapter).
 
+Once installed simply enter the domain name your server is reachable at on the [wirt settings page](https://wirt.network/settings), enable the connection and you are good to go.
+
 ### Domain and SSL certificate
 
 In order to use the `wirt-adapter` you **MUST** have a domain name that points to your server and a valid SSL certificate.
