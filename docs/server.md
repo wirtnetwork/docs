@@ -34,7 +34,6 @@ In order to do this securely, it makes a few assumptions:
 
 - You have a domain name that points to your server and a valid SSL certificate
 - You have provided the public key of your web-app
-- Your wireguard configuration is at `/etc/wireguard/server.conf` and is editable by the adapter
 
 Below is some more information on this.
 
@@ -69,12 +68,6 @@ The [wirt-adapter](https://github.com/wirt-network/adapter) is completely open s
 
 On the webapp part its the same old reason. Everything is in your browser, nothing leaves. If the adapter is not set up, no API calls will ever be made.
 And once it is setup you can always inspect what gets sent out.
-
-### Systemd
-
-Currently the adapter only supports restarting wireguard servers that are spun up using [wg-quick](https://git.zx2c4.com/wireguard-tools/about/src/man/wg-quick.8) together with `systemd`. This adds much simplicity to the workflow!
-
-Since the config is at `/etc/wireguard/server.conf` simply start the server with `systemctl start wg-quick@server`. Thats it!
 
 ### Restarting Wireguard
 
