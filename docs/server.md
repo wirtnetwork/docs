@@ -35,13 +35,15 @@ In order to do this securely, it makes a few assumptions:
 - You have a domain name that points to your server and a valid SSL certificate
 - You have provided the public key of your web-app
 
-Below is some more information on this.
+### Setup
 
-More installation instructions can be found [here](https://github.com/wirtnetwork/adapter).
+Installation instructions can be found [here](https://github.com/wirtnetwork/adapter).
 
 Once installed simply enter the domain name your server is reachable at on the [wirt settings page](https://wirt.network/settings), enable the connection and you are good to go.
 
-### Domain and SSL certificate
+### More information
+
+#### Domain and SSL certificate
 
 In order to use the `wirt-adapter` you **MUST** have a domain name that points to your server and a valid SSL certificate.
 This is needed because otherwise your browser will not allow communicating with the adapter. All requests would simply be blocked.
@@ -50,7 +52,7 @@ If you do not have a certificate yet head over to [LetsEncrypt](https://letsencr
 
 There is nothing that can be done from our site. If you have a workaround using a proxy or similar, feel free to contribute your solution to the docs!
 
-### Public key from the web app
+#### Public key from the web app
 
 Over on the [wirt settings page](https://wirt.network/settings) there is an option to generate keys that identify the webapp as soon as you configured your server.
 
@@ -69,14 +71,14 @@ The [wirt-adapter](https://github.com/wirtnetwork/adapter) is completely open so
 On the webapp part its the same old reason. Everything is in your browser, nothing leaves. If the adapter is not set up, no API calls will ever be made.
 And once it is setup you can always inspect what gets sent out.
 
-### Restarting Wireguard
+#### Restarting Wireguard
 
 The `wirt-adapter` repository includes a script that can take care of this for you.
 It will listen to any changes that the `wirt-adapter` makes to the configuration file and restart wireguard automatically.
 
 Installation instructions are at https://github.com/wirtnetwork/adapter/#automatically-restarting-wireguard .
 
-### Firewall rules
+#### Firewall rules
 
 As you may have noticed, [wirt](https://wirt.network) does not yet support all of [wireguards](https://wireguard.com) configuration options, such as `PostUp` and `PostDown`.
 
@@ -84,7 +86,7 @@ This means that you have to make sure that your firewall is set up correctly to 
 
 In the future when more features get added to the webapp, this shouldnt be needed anymore.
 
-### Editing privileges
+#### Editing privileges
 
 First of all **DO NOT RUN THE ADAPTER AS SUDO!**
 
@@ -92,7 +94,7 @@ While the [wirt-adapter](https://github.com/wirtnetwork/adapter) is written with
 
 So how can you do it properly?
 
-### Allow changing the config
+#### Allow changing the config
 
 - First you should create a new user. How to do this will depend on your distribution. Lets assume the name is `wirt-adapter`
 - Create a new group called `wirt-editors`
