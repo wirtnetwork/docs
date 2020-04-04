@@ -26,7 +26,7 @@ If your server uses [systemd](https://systemd.io/) simply run `systemctl enable 
 Lets face it, your network will undergo changes. New devices have to be added when you start a new project or want to invite someone, old ones haves to be deleted.
 While its easy to delete the devices you will face the problem of keeping your server up to date with these changes. After all, if the server does not know a device it wont allow it to connect.
 
-The [wirt-adapter](https://github.com/wirt-network/adapter) solves exactly this problem, at least if you are running the server on **Linux**.
+The [wirt-adapter](https://github.com/wirtnetwork/adapter) solves exactly this problem, at least if you are running the server on **Linux**.
 
 It will be connected to your [wirt](https://wirt.network) web-app via private/public key encryption and then listen to any changes and apply them.
 
@@ -37,7 +37,7 @@ In order to do this securely, it makes a few assumptions:
 
 Below is some more information on this.
 
-More installation instructions can be found [here](https://github.com/wirt-network/adapter).
+More installation instructions can be found [here](https://github.com/wirtnetwork/adapter).
 
 Once installed simply enter the domain name your server is reachable at on the [wirt settings page](https://wirt.network/settings), enable the connection and you are good to go.
 
@@ -64,7 +64,7 @@ This means that the configuration is verifiably from you! Anyone else who sends 
 
 #### How can I trust this?
 
-The [wirt-adapter](https://github.com/wirt-network/adapter) is completely open source. If you like you can audit the code yourself.
+The [wirt-adapter](https://github.com/wirtnetwork/adapter) is completely open source. If you like you can audit the code yourself.
 
 On the webapp part its the same old reason. Everything is in your browser, nothing leaves. If the adapter is not set up, no API calls will ever be made.
 And once it is setup you can always inspect what gets sent out.
@@ -88,7 +88,7 @@ In the future when more features get added to the webapp, this shouldnt be neede
 
 First of all **DO NOT RUN THE ADAPTER AS SUDO!**
 
-While the [wirt-adapter](https://github.com/wirt-network/adapter) is written with security in mind, using one of the most secure programming languages (https://www.rust-lang.org/), bugs and errors can always exist. Do not take the shortcut here! After all the network should be secure, right?
+While the [wirt-adapter](https://github.com/wirtnetwork/adapter) is written with security in mind, using one of the most secure programming languages (https://www.rust-lang.org/), bugs and errors can always exist. Do not take the shortcut here! After all the network should be secure, right?
 
 So how can you do it properly?
 
