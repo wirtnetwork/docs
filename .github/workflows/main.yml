@@ -28,4 +28,4 @@ jobs:
       env: # Or as an environment variable
         TRIGGERTOKEN: ${{ secrets.TRIGGERTOKEN }}
         PROJECT_ID: ${{ secrets.PROJECT_ID }}
-      run: curl -X POST -F token=$TRIGGERTOKEN -F ref=master https://gitlab.com/api/v4/projects/$PROJECT_ID/trigger/pipeline
+      run: curl -X POST -F token=$TRIGGERTOKEN -F ref=release https://gitlab.com/api/v4/projects/$PROJECT_ID/trigger/pipeline
