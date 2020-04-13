@@ -26,7 +26,7 @@ Simply lock the container with it and all the goods will arrive safely in your p
 So what does this mean in actual technology?
 
 The cities are your devices and the containers are things called [_packets_](https://en.wikipedia.org/wiki/Network_packet), which enable your devices to communicate via networks such as the internet.
-And who is the capital? That is your WireGuard® server. It keeps track of the correct routes to your devices to make sure that they will always be able to communicate with each other.
+And who is the capital? That is your WireGuard server. It keeps track of the correct routes to your devices to make sure that they will always be able to communicate with each other.
 But where do the locks and keys come from?
 This is something that **Wirt** provides you with. When you create devices in the Tutorial or on the quickform, **Wirt** will automatically generate the lock and the key, and distribute them, so that your devices can communicate safely with each other.
 

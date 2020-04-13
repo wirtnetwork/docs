@@ -11,13 +11,13 @@ If your network is very large you will probably know that it wont be enough in t
 
 ## Setup
 
-To install WireGuard® onto your server we recommend the [official documentation](https://www.wireguard.com/install/).
+To install WireGuard onto your server we recommend the [official documentation](https://www.wireguard.com/install/).
 
-Also make sure that the port you choose for WireGuard® is not blocked by your Firewall!.
+Also make sure that the port you choose for WireGuard is not blocked by your Firewall!.
 
 ### Configuring the server
 
-After you have it installed WireGuard® you can place the configuration file that you have created with **Wirt** into `/etc/wireguard` on your server.
+After you have it installed WireGuard you can place the configuration file that you have created with **Wirt** into `/etc/wireguard` on your server.
 
 If your server uses [systemd](https://systemd.io/) simply run `systemctl enable wg-quick@server` (server corresponds to `server.conf`, if you rename the file, you need to reflect this in the command as well). Your server is now successfully set up.
 
@@ -71,18 +71,18 @@ The [wirt-adapter](https://github.com/wirtnetwork/adapter) is completely open so
 On the webapp part its the same old reason. Everything is in your browser, nothing leaves. If the adapter is not set up, no API calls will ever be made.
 And once it is setup you can always inspect what gets sent out.
 
-#### Restarting WireGuard®
+#### Restarting WireGuard
 
 The `wirt-adapter` repository includes a script that can take care of this for you.
-It will listen to any changes that the `wirt-adapter` makes to the configuration file and restart wireguard automatically.
+It will listen to any changes that the `wirt-adapter` makes to the configuration file and restart WireGuard automatically.
 
 Installation instructions are at https://github.com/wirtnetwork/adapter/#automatically-restarting-wireguard .
 
 #### Firewall rules
 
-As you may have noticed, [wirt](https://wirt.network) does not yet support all of [wireguards](https://wireguard.com) configuration options, such as `PostUp` and `PostDown`.
+As you may have noticed, [wirt](https://wirt.network) does not yet support all of [WireGuards](https://wireguard.com) configuration options, such as `PostUp` and `PostDown`.
 
-This means that you have to make sure that your firewall is set up correctly to allow traffic to flow on your wireguard interfaces and the port that it is listening on!
+This means that you have to make sure that your firewall is set up correctly to allow traffic to flow on your WireGuard interfaces and the port that it is listening on!
 
 In the future when more features get added to the webapp, this shouldnt be needed anymore.
 
