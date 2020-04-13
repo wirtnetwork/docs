@@ -1,9 +1,9 @@
 # Welcome to the Wirt documentation
 
-**Wirt** is an application to help you to create a network with your devices in a safe way using Wireguard.
+**Wirt** is an application to help you to create a network with your devices in a safe way using WireGuard®.
 There are many use cases for this, as the tutorials will cover, but a secure network is at the base of all of those.
 
-Since Wireguard is behind all the actual networking and routing your network will be using modern cryptography and some Linux magic, to give you the quickest and most reliable solution for creating your own personal **VPN**.
+Since WireGuard® is behind all the actual networking and routing your network will be using modern cryptography and some Linux magic, to give you the quickest and most reliable solution for creating your own personal **VPN**.
 
 You read that right, a **VPN**, but not in the way that you might have come to know it from the countless piracy related news. This **Virtual private network** that you will set up with Wirt belongs only to you and will not, by default, communicate with any devices outside of it.
 This will give you a maximum of security, allowing you to connect to your devices from home while you are on the go or travelling.
@@ -15,7 +15,7 @@ And dont worry, you can still decide to route all of the traffic for specific de
 ### So who is Wirt for?
 
 - Everyone who has digital services in their home and wants to acces them while on the go.
-- Everyone who wants to set up a Wireguard network, but is overwhelmed by all the technicalities in setting it up correctly.
+- Everyone who wants to set up a WireGuard® network, but is overwhelmed by all the technicalities in setting it up correctly.
 
 Hopefully **Wirt** can help you stay safe!
 

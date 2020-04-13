@@ -1,6 +1,6 @@
 # Expert explanation
 
-**Wirt** is a simple UI to configure your Wireguard network. Its as simple as that.
+**Wirt** is a simple UI to configure your WireGuard® network. Its as simple as that.
 Setting it up manually was annoying so this project was something within my abilities.
 But building a Web based UI for a tool that focusses on security might raise some eyebrows so some extra care went into designing it.
 
