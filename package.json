@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/wirtnetwork/docs#readme",
   "devDependencies": {
-    "vuepress": "^1.4.0"
+    "vuepress": "^1.4.1"
   }
 }
