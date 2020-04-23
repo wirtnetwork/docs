@@ -31,7 +31,7 @@ We can not! The Webapp runs in your browser and if you set up the Wirt Bot yours
 
 ## How can I trust you with my keys?
 
-You dont! The keys and all configuration only lives inside your browser. Nothing ever leaves it, until you download it to configure your devices. Your keys are as safe as your browser is!
+No one has access to your keys except you. The keys and all configuration only lives inside your browser. Nothing ever leaves it, until you download it to configure your devices. Your keys are as safe as your browser is!
 
 ## Who is building this?
 

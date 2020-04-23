@@ -46,5 +46,6 @@ For verification you can always try to ping the Wirt Bot. Its IP in the network 
 
 ## Wirt Interface
 
-Nothing to do here.32
-By reaching the website your setup is done. If you have set up the Wirt Bot it should already be connected and you are ready to go.
+Nothing to set up here.
+
+By reaching the website your setup is done. If you have set up the Wirt Bot following the above instructions it should already be connected to the interface and you are ready to go.
