@@ -7,14 +7,14 @@ module.exports = {
       "/": {
         nav: [{ text: "Back to the App", link: "https://wirt.network" }],
         sidebar: [
-          ["/", "Intro"],
-          ["/beginner", "Beginner Explanation"],
-          ["/expert", "Overview for Experts"],
-          ["/server", "Wireguard server"],
+          ["/", "What is it?"],
+          ["/what-can-i-do-with-wirt", "What can you do with Wirt?"],
+          ["/how-does-it-work", "How does it work?"],
+          ["/setup", "Setup"],
           ["/faq", "FAQ"],
-          ["/issues", "New features & Bugs"]
-        ]
-      }
+          ["/issues", "New features & Bugs"],
+        ],
+      },
       //   "/de/": {
       //     "/": {
       //       nav: [{ text: "Back to the App", link: "/" }],
@@ -27,18 +27,18 @@ module.exports = {
       //       ]
       //     }
       //   }
-    }
+    },
   },
   locales: {
     "/": {
       lang: "English",
       title: "Wirt",
-      description: "Your home in the cloud"
-    }
+      description: "Connect all your devices",
+    },
     // "/de/": {
     //   lang: "Deutsch",
     //   title: "Wirt",
     //   description: "Dein Netz im Netz"
     // }
-  }
+  },
 };

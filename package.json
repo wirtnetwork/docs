@@ -15,12 +15,12 @@
     "url": "git+https://github.com/wirtnetwork/docs.git"
   },
   "author": "",
-  "license": "ISC",
+  "license": "",
   "bugs": {
     "url": "https://github.com/wirtnetwork/docs/issues"
   },
   "homepage": "https://github.com/wirtnetwork/docs#readme",
   "devDependencies": {
-    "vuepress": "^1.4.0"
+    "vuepress": "^1.4.1"
   }
 }
