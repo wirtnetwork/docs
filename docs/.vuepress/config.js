@@ -14,6 +14,7 @@ module.exports = {
           ["/ui", "UI"],
           ["/faq", "FAQ"],
           ["/issues", "New features & Bugs"],
+          ["/shoutouts", "Shoutouts"],
         ],
       },
       //   "/de/": {
