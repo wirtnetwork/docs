@@ -23,10 +23,10 @@ Finishing up the setup requires the [Wirt adapter](https://github.com/wirtnetwor
 This can be achieved with the following steps:
 
 - Download a release from https://github.com/wirtnetwork/adapter/releases and place it into `/usr/bin/wirt-adapter`
-- Get the public key of your Wirt interface from the [settings section](https://wirt.network/dashboard) on the Dashboard
+- Get the public key of your WirtUI from the [settings section](https://wirt.network/dashboard) on the Dashboard
 - Copy https://github.com/wirtnetwork/adapter/blob/master/wirt-adapter.service to `/etc/system/systemd/wirt-adapter.service`
   - **Make sure to change the variables in that file**!
-  - PUBLIC_KEY: this is the public key from the Wirt interface
+  - PUBLIC_KEY: this is the public key from the WirtUI
   - SSL_PEM_CERT: this is the location of your SSL certificate
   - SSL_KEY: this needs the location to your SSL key
   - User and Group: choose the user and the group that is used to run the `wirt-adapter` or delete these lines to use the root user.
@@ -44,8 +44,8 @@ Now add a new mobile device, scan the presented QR code with your WireGuard app 
 
 For verification you can always try to ping the Wirt Bot. Its IP in the network is always `SUBNET` + 1. With the default settings this is `10.10.0.1`
 
-## Wirt Interface
+## WirtUI
 
 Nothing to set up here.
 
-By reaching the website your setup is done. If you have set up the Wirt Bot following the above instructions it should already be connected to the interface and you are ready to go.
+By reaching the website your setup is done. If you have set up the WirtBot following the above instructions it should already be connected to the UI and you are ready to go.
