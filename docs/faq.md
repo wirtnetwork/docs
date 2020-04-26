@@ -2,7 +2,7 @@
 
 ## Whats a public IP?
 
-A public IP in Wirts sense is an IP on the internet that clearly identifies one specific device!
+A public IP is an IP address on the internet that clearly identifies one specific device!
 
 ## Whats a private IP
 
@@ -23,11 +23,12 @@ Yes, this is a Virtual private network!
 ## Will I be anonymous on the internet?
 
 No, traffic to the internet can go through the VPN, but since the server belongs only to you, that could be used to associate the server to you.
+
 It is not less anonymous than not using it though, but definitely more secure.
 
 ## Do you keep logs?
 
-We can not! The Webapp runs in your browser and if you set up the WirtBot yourself then all the data is in your hands!
+I can not! The UI runs in your browser and if you set up the WirtBot yourself then all the data is in your hands!
 
 ## How can I trust you with my keys?
 
@@ -37,3 +38,5 @@ No one has access to your keys except you. The keys and all configuration only l
 
 My name is [Maximilian Ehlers](https://ehlers.berlin). A developer living in Berlin.
 I am currently back in university to finish my masters degree and develop this system simultaneously.
+
+Responsible for the UI is [Tabitha Tan](https://tabithatxc.com), a UX developer from Singapore.
