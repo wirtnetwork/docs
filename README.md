@@ -6,23 +6,19 @@ Feel free to contribute to it if you think something is missing or you have a gr
 
 ## Contributing
 
-First of all download this repository.
-Now create a new [markdown](https://www.markdownguide.org/basic-syntax) file in the docs folder.
-When you are satisfied with your page add it to the sidebar in `docs/.vuepress/config.js`.
+- First of all [clone](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) this repository.
+- Now create a new [markdown](https://www.markdownguide.org/basic-syntax) file in the `/docs` folder.
+- When you are satisfied with your page add it to the sidebar in `docs/.vuepress/config.js`.
+- [Push](https://help.github.com/en/github/using-git/pushing-commits-to-a-remote-repository) changes to Github and create a [pull request](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/about-pull-requests)
 
-### Test you changes
+### Test your changes locally
 
-You will need:
+[Install](https://github.com/nvm-sh/nvm#installing-and-updating)
 - nodejs
 - npm
 
-After you have both installed run `npm install` in the root of this documentation repository.
-To start a local development server run `npm run dev:docs`.
+After you have both installed on your computer run `npm install` in the root of this documentation repository that you cloned.
+Run a local development server using `npm run dev:docs`.
 
-You local version will now be available at `http://localhost:9090`
+You local version will now show up at `http://localhost:9090` in your browser.
 
-### Submit your changes
-
-When you are done open a [Pull request](https://help.github.com/en/github/getting-started-with-github/github-glossary#pull-request) and target it to the development branch! Once it is reviewed and everything looks good it will be merged and soon appear on the website.
-
-If you need any help simply open an issue!
