@@ -1,5 +1,21 @@
 # Frequently asked questions
 
+## Whats a public IP?
+
+A public IP in Wirts sense is an IP on the internet that clearly identifies one specific device!
+
+## Whats a private IP
+
+This is an IP that all the devices in your network have and where they can find it each other. No one else in the entire internet can though. They have no meaning outside of your network!
+
+## Whats a port?
+
+A port is a like an open door into a computer.
+
+Programs open them up to receive data from other computers.
+
+Servers that do a lot of networking might have many of them open, Wirt Bots only need to open 3 of them to keep unwanted data out!
+
 ## Am I setting up a VPN?
 
 Yes, this is a Virtual private network!
@@ -11,8 +27,13 @@ It is not less anonymous than not using it though, but definitely more secure.
 
 ## Do you keep logs?
 
-We can not! The Webapp runs in your browser and the server belongs to you!
+We can not! The Webapp runs in your browser and if you set up the Wirt Bot yourself then all the data is in your hands!
 
 ## How can I trust you with my keys?
 
-You dont! The keys and all configuration only lives inside your browser. Nothing ever leaves it, until you download it to configure your devices. Your keys are as safe as your browser is!
+No one has access to your keys except you. The keys and all configuration only lives inside your browser. Nothing ever leaves it, until you download it to configure your devices. Your keys are as safe as your browser is!
+
+## Who is building this?
+
+My name is [Maximilian Ehlers](https://ehlers.berlin). A developer living in Berlin.
+I am currently back in university to finish my masters degree and develop this system simultaneously.
