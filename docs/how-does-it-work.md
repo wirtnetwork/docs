@@ -4,7 +4,7 @@ Wirt is possible due to a technology called [WireGuard®](https://wireguard.com)
 
 WireGuard has the nice properties of allowing cryptographically secured traffic, **ONLY** between devices in a network.
 
-## WirtBot
+## WirtBot®
 
 The Wirt Bot is the part of the Wirt system that is responsible for handling the actual traffic routing between the devices.
 

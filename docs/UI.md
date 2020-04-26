@@ -10,7 +10,7 @@ To do this use the `Create Backup` function in the settings of your [Dashboard](
 
 ## Authentification
 
-Your WirtUI and WirtBot are yours and yours alone.
+Your WirtUI and WirtBot® are both under your control.
 During the WirtBot setup they are linked using cryptogrpahic keys whch ensures that no other UI can configure your WirtBot.
 
 Because of this there is no reason to have an account with any backend on the internet.

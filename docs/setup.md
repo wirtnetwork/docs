@@ -1,6 +1,6 @@
 # Setup
 
-## Wirt Bot
+## WirtBot®
 
 If you want to run your own Wirt Bot you will need the following things:
 

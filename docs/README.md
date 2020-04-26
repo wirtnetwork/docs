@@ -2,7 +2,7 @@
 
 Wirt is a system to allow secure communication between any devices you might have - over the internet.
 
-It is designed in 2 parts, a WirtBot that is easily reachable via the internet and the WirtUI to configure.
+It is designed in 2 parts, a WirtBot® that is easily reachable via the internet and the WirtUI to configure.
 
 - Head over [here](/docs/how-does-it-work) to understand how it works.
 - Check out [this page](/docs/setup) to set it up yourself
