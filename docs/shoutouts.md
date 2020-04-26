@@ -1,6 +1,6 @@
 # Shoutouts
 
-First of all thanks to [Tabitha Tan](https://tabithatxc.com) for all her help in designing the [UI](https://wirt.network)
+First of all thanks to [Tabitha Tan](https://tabithatxc.com) for all her help in designing the [WirtUI](https://wirt.network)
 
 Then Id really like to thank the following projects that made it possible building Wirt.
 

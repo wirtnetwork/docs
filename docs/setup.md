@@ -2,7 +2,7 @@
 
 ## WirtBot®
 
-If you want to run your own Wirt Bot you will need the following things:
+If you want to run your own WirtBot you will need the following things:
 
 - A machine with a public IP on the internet
 - Root access on this machine
@@ -12,7 +12,7 @@ If you want to run your own Wirt Bot you will need the following things:
 - Your system is managed with [systemd](https://en.wikipedia.org/wiki/Systemd)
 - Your WireGuard configuration should be at `/etc/wireguard/server.conf`. If you deviate from this, you have to change this in the `wireguard-restarter` and add the `CONFIG_PATH` environment variable to your `wirt-adater` service.
 
-Having these things is the first **80%** of finishing your Wirt Bot and you should find plenty of documentation about these things on the internet.
+Having these things is the first **80%** of finishing your WirtBot and you should find plenty of documentation about these things on the internet.
 
 If you come across a good one, or have vast knowledge about these topics, contributions to this documentation is highly encouraged!
 
@@ -42,10 +42,10 @@ To verify that everything is running correctly you can now add your hostname for
 
 Now add a new mobile device, scan the presented QR code with your WireGuard app and verify that you can reach other devices on your network.
 
-For verification you can always try to ping the Wirt Bot. Its IP in the network is always `SUBNET` + 1. With the default settings this is `10.10.0.1`
+For verification you can always try to ping the WirtBot. Its IP in the network is always `SUBNET` + 1. With the default settings this is `10.10.0.1`
 
 ## WirtUI
 
 Nothing to set up here.
 
-By reaching the website your setup is done. If you have set up the WirtBot following the above instructions it should already be connected to the UI and you are ready to go.
+By reaching the website your setup is done. If you have set up the WirtBot following the above instructions it should already be connected to the WirtUI and you are ready to go.

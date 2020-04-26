@@ -11,7 +11,7 @@ module.exports = {
           ["/what-can-i-do-with-wirt", "What can you do with Wirt?"],
           ["/how-does-it-work", "How does it work?"],
           ["/setup", "Setup"],
-          ["/ui", "UI"],
+          ["/ui", "WirtUI"],
           ["/faq", "FAQ"],
           ["/issues", "New features & Bugs"],
           ["/shoutouts", "Shoutouts"],

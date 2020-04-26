@@ -14,7 +14,7 @@ A port is a like an open door into a computer.
 
 Programs open them up to receive data from other computers.
 
-Servers that do a lot of networking might have many of them open, Wirt Bots only need to open 3 of them to keep unwanted data out!
+Servers that do a lot of networking might have many of them open, WirtBots only need to open 3 of them to keep unwanted data out!
 
 ## Am I setting up a VPN?
 
@@ -27,7 +27,7 @@ It is not less anonymous than not using it though, but definitely more secure.
 
 ## Do you keep logs?
 
-We can not! The Webapp runs in your browser and if you set up the Wirt Bot yourself then all the data is in your hands!
+We can not! The Webapp runs in your browser and if you set up the WirtBot yourself then all the data is in your hands!
 
 ## How can I trust you with my keys?
 
