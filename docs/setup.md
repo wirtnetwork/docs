@@ -13,8 +13,17 @@ If you want to run your own WirtBot you will need the following things:
 - Your WireGuard configuration should be at `/etc/wireguard/server.conf`. If you deviate from this, you have to change this in the `wireguard-restarter` and add the `CONFIG_PATH` environment variable to your `wirt-adater` service.
 
 Having these things is the first **80%** of finishing your WirtBot and you should find plenty of documentation about these things on the internet.
+Here are a few links:
 
-If you come across a good one, or have vast knowledge about these topics, contributions to this documentation is highly encouraged!
+- [What is Linux?](https://www.linux.com/what-is-linux/)
+- [Initial Server Setup with Ubuntu](https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-16-04)
+- [nftables as a firewall](https://wiki.debian.org/nftables)
+- [HTTPS with LetsEncrypt](https://letsencrypt.org/about/)
+- [systemd](https://wiki.archlinux.org/index.php/Systemd)
+- [WireGuard installation](https://www.wireguard.com/install)
+
+If you come across a good tutorial, or have vast knowledge about these topics, contributions to make this documentation easier are highly encouraged!
+Just contact me for info on how to help out or send a PR on this [repo](https://github.com/wirtnetwork/docs/) if you know what that is.
 
 But what about the last **20%**?
 
@@ -34,7 +43,7 @@ This can be achieved with the following steps:
 - When configured correctly you can now run `systemctl enable --now wirt-adapter` to start the adapter. Use `journalctl -xe` if something is going wrong to get more information on what happened
 - The last step to finish up the setup is the activation of a reloader. Copy https://github.com/wirtnetwork/adapter/blob/master/wireguard-restarter.sh to `/usr/bin/wireguard-restarter.sh`
 - Now copy https://github.com/wirtnetwork/adapter/blob/master/wireguard-restarter.service to `/etc/systemd/system/wireguard-restarter.service`
-- Run `systemctl enable --now wireguard-restarted`
+- Run `systemctl enable --now wireguard-restarter`
 
 ### Testing your setup
 
